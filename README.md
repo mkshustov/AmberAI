@@ -5,7 +5,7 @@
 **Step 1** 🎬 Git clone repository
 
 ```console 
-https://github.com/mkshustov/AmberAI.git
+git clone https://github.com/mkshustov/AmberAI.git
 ```
 
 **Step 2** 📁 Changing directory to cloned directory
