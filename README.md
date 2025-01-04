@@ -3,4 +3,5 @@
 
 ### Installation steps 🚩
 **Step 1** 🎬 Git clone repository
-```bash https://github.com/mkshustov/AmberAI.git```
+
+```https://github.com/mkshustov/AmberAI.git```
