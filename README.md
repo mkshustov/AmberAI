@@ -2,3 +2,5 @@
 <div align="center">Simple Discord bot for generating pictures and text</div>
 
 ### Installation steps 🚩
+**Step 1** 🎬 Git clone repository
+```bash https://github.com/mkshustov/AmberAI.git```
