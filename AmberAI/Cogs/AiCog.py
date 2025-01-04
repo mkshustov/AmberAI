@@ -58,7 +58,7 @@ async def process_text_request(session, inter, content_message, message_history)
                 await inter.channel.send(part_2)
 
     except Exception as e:
-        return f"Что-то сломалось: {e}"
+        return f"Something's broken: {e}"
 
 
 class AiCog(commands.Cog):
