@@ -13,3 +13,9 @@ https://github.com/mkshustov/AmberAI.git
 ```console
 cd AmberAI
 ```
+
+**Step 3** 💾 Install requirements
+
+```console
+pip install -r requirements.txt
+```
