@@ -7,3 +7,9 @@
 ```console 
 https://github.com/mkshustov/AmberAI.git
 ```
+
+**Step 2** 📁 Changing directory to cloned directory
+
+```console
+cd AmberAI
+```
