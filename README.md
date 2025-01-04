@@ -1,3 +1,3 @@
-<div align="center"># AmberAI 🤖</div>
+<div align="center"><strong>AmberAI 🤖</strong></div>
 
-Simple Discord bot for generating pictures and text 
+<div align="center">Simple Discord bot for generating pictures and text</div>
