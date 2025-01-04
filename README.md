@@ -20,7 +20,7 @@ cd AmberAI
 pip install -r requirements.txt
 ```
 
-**Step 4** Get information 
+**Step 4** 💻 Get information 
 
 <a href="https://discord.com/developers" target="_blank">Discord token</a><br>
 
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 <a href="https://mnnai.ru/" target="_blank">MNN data</a>
 
-**Step 5** 😎 Customize the bot
+**Step 5** 😎 Customize bot
 
 Open consts.py and fill it in 
 
@@ -41,4 +41,10 @@ MNNId="Your MNN id"
 ImageCommands=["create", "draw"] # Your commands for generating images
 TextModel = "gpt-4o-mini" # Model for text generation
 Activity = "Counter-Strike 2" # Bot activity
+```
+
+**Step 6** 🚀 Run the bot
+
+```python
+python bot.py
 ```
