@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 **Step 5** 😎 Customize bot
 
-Open const.py and fill it in 
+Open const.py (n the folder AmberAI) and fill it in 
 
 ```
 Token="Your bot token"
