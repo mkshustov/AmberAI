@@ -83,8 +83,8 @@ class MNN:
         async with self.session.post(f"https://api.mnnai.ru/v1/chat/completion", headers=headers, json=payload) as response:
             result = await response.text()
             result = json.loads(result)
-            if result["data"][0]["choices"][0]["text"]:
-                return result["data"][0]["choices"][0]["text"]
+            if result["choices"][0]["message"]["content"]:
+                return result["choices"][0]["message"]["content"]
 
 
 async def GenerateImage(session, prompt):
