@@ -80,7 +80,7 @@ class MNN:
             "temperature": 0.5,
             "stream": False
         }
-        async with self.session.post(f"https://api.mnnai.ru/v1/chat/completion", headers=headers, json=payload) as response:
+        async with self.session.post(f"https://api.mnnai.ru/v1/chat/completions", headers=headers, json=payload) as response:
             result = await response.text()
             result = json.loads(result)
             if result["choices"][0]["message"]["content"]:
